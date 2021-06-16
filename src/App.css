@@ -1,0 +1,61 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  padding: 10px;
+  font-size: 2.5em;
+  /* color: black;
+  background-color: rgb(71, 199, 250); */
+  color:white;
+  background-color: black;
+}
+
+.Board {
+  width: 400px;
+  height:370px;
+  /* background-color: rgb(121, 189, 253); */
+  background-color: rgb(118, 216, 255); 
+  margin: auto;
+  margin-top: 90px;
+}
+
+.row{
+  width: 99.3%;
+  height: 32.8%;
+  border:1px solid black;
+  display: flex;
+}
+
+.square{
+  flex:1;
+  height:100%;
+  border:1px solid black;
+  cursor: pointer;
+  align-items: center;
+  font-size:5em;
+  color:black;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  /* padding:20px; */
+}
+
+.square:active{
+  background-color: rgb(11, 168, 230); 
+}
+
+.value{
+  width:fit-content;
+  height:fit-content;
+}
